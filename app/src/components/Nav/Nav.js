@@ -3,18 +3,12 @@ import "./Nav.css";
 
 const Nav = props => (
     <div>
-        <ul className="nav nav-justified">
-            <li><a href="/">Clicky Game</a></li>
-            <li
-                className={props.message.indexOf('incorrectly') !== -1 ? 
-                    "desc-incorrect" : 
-                    props.message.indexOf('correctly') !== -1 ?
-                        "desc-correct" :
-                        "desc-normal"}
-            >
+        <ul className="nav nav-pills nav-fill">
+            <li className="nav-item"><a className="nav-link" href="/">Bowie Clicky Game </a></li>
+            <li className="nav-item">
                 {props.message}
             </li>
-            <li>Score: <span style={{color: "yellow"}}>{props.curScore}</span> | Top Score: {props.topScore}</li>
+            <li className="nav-item"> Score: <span style={{color: "yellow"}}>{props.score}</span> | Top Score: {props.topScore}</li>
         </ul>
     </div>
 );

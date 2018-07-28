@@ -25,8 +25,8 @@ class App extends Component {
   };
 
   //Player clicks an album, checks if it has already been clicked
-  selectAlbum = (album) => {
-    const findAl = this.state.unselectedAlbums.find(art => art.album === album);
+  selectAlbum = (name) => {
+    const findAl = this.state.unselectedAlbums.find(art => art.name === name);
 
     if (findAl === undefined) {
       //picked already chosen album
@@ -38,7 +38,7 @@ class App extends Component {
         unselectedAlbums: albums
       });
     } else {
-      const newAl = this.state.unselectedAlbums.find(art => art.album !== album);
+      const newAl = this.state.unselectedAlbums.find(art => art.name !== name);
 
       this.setState({
         message: "You picked correctly",
@@ -65,6 +65,7 @@ class App extends Component {
             key={album.id}
             name={album.name}
             image={album.image}
+            selectAlbum={this.selectAlbum}
           />
         ))}
       </Wrapper>
