@@ -1,12 +1,72 @@
 [
     {
       "id": 1,
-      "name": "Me",
-      "image": "https://www.meme-arsenal.com/memes/cf8a381f21bc02e2f0144f9d7aabbdab.jpg"
+      "name": "Blackstar",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Blackstar_%28Front_Cover%29.png/220px-Blackstar_%28Front_Cover%29.png"
     },
     {
         "id": 2,
-        "name": "cat",
-        "image": "https://images-na.ssl-images-amazon.com/images/I/71CbH7RcBFL.jpg"
+        "name": "Space Oddity",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/DavidBowiePhilips.jpg/220px-DavidBowiePhilips.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Aladdin Sane",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/DavisBowieAladdinSane.jpg/220px-DavisBowieAladdinSane.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Low",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Low_%28album%29.jpg/220px-Low_%28album%29.jpg"
+    },
+    {
+        "id": 5,
+        "name": "The Rise and Fall of Ziggy Stardust and The Spiders from Mars",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/ZiggyStardust.jpg/220px-ZiggyStardust.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Diamond Dogs",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Diamond_dogs.jpg/220px-Diamond_dogs.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Tonight",
+        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Tonight_%28album%29.jpg/220px-Tonight_%28album%29.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Scary Monsters (and Super Creeps)",
+        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/DavidBowieScaryMonstersCover.jpg/220px-DavidBowieScaryMonstersCover.jpg"
+    },
+    {
+        "id": 9,
+        "name": "The Next Day",
+        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/David_Bowie_-_The_Next_Day.png/220px-David_Bowie_-_The_Next_Day.png"
+    },
+    {
+        "id": 10,
+        "name": "Young Americans",
+        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Young_americans.jpg/220px-Young_americans.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Pin Ups",
+        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/be/PinUps.jpg/220px-PinUps.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Hunky Dory",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/David_Bowie_-_Hunky_Dory.jpg/220px-David_Bowie_-_Hunky_Dory.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Hours",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Bowie_Hours.jpg/220px-Bowie_Hours.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Let's Dance",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/David-bowie-lets-dance.jpg/220px-David-bowie-lets-dance.jpg"
     }
 ]

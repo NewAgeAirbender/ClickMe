@@ -26,7 +26,7 @@ class App extends Component {
 
   //Player clicks an album, checks if it has already been clicked
   selectAlbum = (name) => {
-    const findAl = this.state.unselectedAlbums.find(art => art.name === name);
+    let findAl = this.state.unselectedAlbums.find(art => art.name === name);
 
     if (findAl === undefined) {
       //picked already chosen album
@@ -38,7 +38,7 @@ class App extends Component {
         unselectedAlbums: albums
       });
     } else {
-      const newAl = this.state.unselectedAlbums.find(art => art.name !== name);
+      let newAl = this.state.unselectedAlbums.filter(art => art.name !== name);
 
       this.setState({
         message: "You picked correctly",
@@ -47,7 +47,8 @@ class App extends Component {
         unselectedAlbums: newAl
       });
     }
-  }
+    this.shuffle(albums);
+  };
 
   // Map over this.state.characters and render a Card component for each object
   render() {
